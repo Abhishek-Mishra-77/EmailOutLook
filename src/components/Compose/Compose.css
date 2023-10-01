@@ -1,0 +1,167 @@
+.compose {
+  position: fixed;
+  bottom: 0;
+  right: 70px;
+  min-width: 500px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgb(51 51 51/59%);
+  border-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .compose {
+    position: fixed;
+    right: 80px;
+    min-width: 300px;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .compose {
+    position: fixed;
+    right: 10%;
+    min-width: 300px;
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .compose {
+    position: fixed;
+    right: 10%;
+    min-width: 300px;
+    margin-bottom: 65%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .compose {
+    position: fixed;
+    right: 10%;
+    min-width: 300px;
+    margin-bottom: 85%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .compose {
+    position: fixed;
+    right: 10%;
+    min-width: 300px;
+    margin-bottom: 95%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .compose {
+    position: fixed;
+    right: 10%;
+    min-width: 300px;
+    margin-bottom: 135%;
+  }
+}
+
+.compose-header {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  align-items: center;
+  padding: 7px 15px;
+}
+
+.compose-header-left span {
+  font-size: 14px;
+}
+
+.comopose-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.compose-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.comopose-header-right svg {
+  font-size: 18px;
+  margin-left: 10px;
+  transition: 02s linear 0s;
+  padding: 3px;
+}
+
+.compose .compose-header .comopose-header-right svg:nth-child(2) path {
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.compose .compose-header .comopose-header-right svg:hover {
+  background: #545454;
+  cursor: pointer;
+}
+
+.compose-body {
+  display: flex;
+}
+
+.compose-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.compose-form input,
+textarea {
+  width: 100%;
+  height: 40px;
+  outline: 0;
+  border: 0px;
+  box-shadow: inset 0 -1px 0 0 rgb(100 121 143/12%);
+  padding: 0px 10px;
+}
+.compose-form textarea {
+  height: auto;
+}
+
+.compose-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+}
+
+.compose-footer-left button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  background-color: #297be6;
+  outline: 0;
+  color: #fff;
+  font-size: 15px;
+  padding: 0px 0px 0px 15px !important;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+
+.compose-footer-left button svg {
+  border-left: 1px solid #00000052;
+  margin-left: 15px;
+  padding: 7px 2px 7px 2px;
+}
+
+.compose-footer-right svg {
+  font-size: 20px;
+  margin-left: 10px;
+  color: grey;
+  border-radius: 3px;
+  padding: 3px;
+  transition: 02s linear 0s;
+}
+
+.compose-footer-right svg:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}

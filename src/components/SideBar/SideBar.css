@@ -1,0 +1,42 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.compose-btn {
+  padding: 10px 25px !important;
+  border-radius: 40px !important;
+  box-shadow: 2px 2px 3px #c2e7ff;
+  margin-top: 20px !important;
+  background-color: #c2e7ff;
+  margin-bottom: 20px !important;
+  margin-left: 10px !important;
+  max-width: 150px;
+}
+
+.sidebarOptions-heading {
+  font-size: 15px;
+  margin: 0;
+  margin-left: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(247, 210, 210);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fcc4c4;
+}
+
+.sidebar-options {
+  max-height: 40vh;
+  overflow-y: scroll;
+}
