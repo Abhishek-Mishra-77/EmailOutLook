@@ -19,7 +19,7 @@ const EmailList = () => {
                 inboxMails: doc.data()
             })))
         })
-    }, [])
+    }, [user.email])
 
 
     const checkInboxMails = () => {

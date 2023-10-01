@@ -18,7 +18,7 @@ const SendMail = () => {
                 sendEmails: doc.data()
             })))
         })
-    }, [])
+    }, [user.email])
 
 
     return (

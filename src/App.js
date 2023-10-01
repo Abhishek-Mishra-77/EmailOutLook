@@ -32,7 +32,9 @@ function App() {
         dispatch(signOut())
       }
     })
-  }, [])
+  }, [dispatch])
+
+  
 
 
   return (
